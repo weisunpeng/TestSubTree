@@ -1,0 +1,3 @@
+[submodule "TestSubtree/TestSubtree/subtree2"]
+	path = TestSubtree/TestSubtree/subtree2
+	url = https://github.com/weisunpeng/TestSubTree2.git
