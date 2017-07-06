@@ -15,6 +15,7 @@
 		D310D38E1F0E0C3800653F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D310D38C1F0E0C3800653F28 /* LaunchScreen.storyboard */; };
 		D310D3991F0E0C3800653F28 /* TestSubtreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D310D3981F0E0C3800653F28 /* TestSubtreeTests.m */; };
 		D310D3A41F0E0C3800653F28 /* TestSubtreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D310D3A31F0E0C3800653F28 /* TestSubtreeUITests.m */; };
+		D310D3B81F0E1BF000653F28 /* SubTree2.m in Sources */ = {isa = PBXBuildFile; fileRef = D310D3B71F0E1BF000653F28 /* SubTree2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D310D39F1F0E0C3800653F28 /* TestSubtreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSubtreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D310D3A31F0E0C3800653F28 /* TestSubtreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSubtreeUITests.m; sourceTree = "<group>"; };
 		D310D3A51F0E0C3800653F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D310D3B61F0E1BF000653F28 /* SubTree2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTree2.h; sourceTree = "<group>"; };
+		D310D3B71F0E1BF000653F28 /* SubTree2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTree2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D310D37D1F0E0C3800653F28 /* TestSubtree */ = {
 			isa = PBXGroup;
 			children = (
+				D310D3B51F0E1BC200653F28 /* subTree1 */,
 				D310D3811F0E0C3800653F28 /* AppDelegate.h */,
 				D310D3821F0E0C3800653F28 /* AppDelegate.m */,
 				D310D3841F0E0C3800653F28 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				D310D3A51F0E0C3800653F28 /* Info.plist */,
 			);
 			path = TestSubtreeUITests;
+			sourceTree = "<group>";
+		};
+		D310D3B51F0E1BC200653F28 /* subTree1 */ = {
+			isa = PBXGroup;
+			children = (
+				D310D3B61F0E1BF000653F28 /* SubTree2.h */,
+				D310D3B71F0E1BF000653F28 /* SubTree2.m */,
+			);
+			path = subTree1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D310D3861F0E0C3800653F28 /* ViewController.m in Sources */,
+				D310D3B81F0E1BF000653F28 /* SubTree2.m in Sources */,
 				D310D3831F0E0C3800653F28 /* AppDelegate.m in Sources */,
 				D310D3801F0E0C3800653F28 /* main.m in Sources */,
 			);
