@@ -1,3 +1,6 @@
 [submodule "TestSubtree/TestSubtree/subtree2"]
 	path = TestSubtree/TestSubtree/subtree2
 	url = https://github.com/weisunpeng/TestSubTree2.git
+[submodule "TestSubtree/TestSubtree/subtree4"]
+	path = TestSubtree/TestSubtree/subtree4
+	url = https://github.com/weisunpeng/myCocopodTest.git

@@ -15,6 +15,10 @@
 		D310D38E1F0E0C3800653F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D310D38C1F0E0C3800653F28 /* LaunchScreen.storyboard */; };
 		D310D3991F0E0C3800653F28 /* TestSubtreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D310D3981F0E0C3800653F28 /* TestSubtreeTests.m */; };
 		D310D3A41F0E0C3800653F28 /* TestSubtreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D310D3A31F0E0C3800653F28 /* TestSubtreeUITests.m */; };
+		D310D3C21F0E431000653F28 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D310D3C11F0E431000653F28 /* README.md */; };
+		D310D3C71F0E431F00653F28 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D310D3C41F0E431F00653F28 /* README.md */; };
+		D310D3C81F0E431F00653F28 /* SubTree3.m in Sources */ = {isa = PBXBuildFile; fileRef = D310D3C61F0E431F00653F28 /* SubTree3.m */; };
+		D310D3CB1F0E433000653F28 /* SubTree4.m in Sources */ = {isa = PBXBuildFile; fileRef = D310D3CA1F0E433000653F28 /* SubTree4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		D310D39F1F0E0C3800653F28 /* TestSubtreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSubtreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D310D3A31F0E0C3800653F28 /* TestSubtreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSubtreeUITests.m; sourceTree = "<group>"; };
 		D310D3A51F0E0C3800653F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D310D3C11F0E431000653F28 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D310D3C41F0E431F00653F28 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D310D3C51F0E431F00653F28 /* SubTree3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTree3.h; sourceTree = "<group>"; };
+		D310D3C61F0E431F00653F28 /* SubTree3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTree3.m; sourceTree = "<group>"; };
+		D310D3C91F0E433000653F28 /* SubTree4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTree4.h; sourceTree = "<group>"; };
+		D310D3CA1F0E433000653F28 /* SubTree4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTree4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,8 @@
 		D310D37D1F0E0C3800653F28 /* TestSubtree */ = {
 			isa = PBXGroup;
 			children = (
+				D310D3C31F0E431F00653F28 /* subtree2 */,
+				D310D3C01F0E431000653F28 /* subtree4 */,
 				D310D3811F0E0C3800653F28 /* AppDelegate.h */,
 				D310D3821F0E0C3800653F28 /* AppDelegate.m */,
 				D310D3841F0E0C3800653F28 /* ViewController.h */,
@@ -138,6 +150,26 @@
 				D310D3A51F0E0C3800653F28 /* Info.plist */,
 			);
 			path = TestSubtreeUITests;
+			sourceTree = "<group>";
+		};
+		D310D3C01F0E431000653F28 /* subtree4 */ = {
+			isa = PBXGroup;
+			children = (
+				D310D3C11F0E431000653F28 /* README.md */,
+				D310D3C91F0E433000653F28 /* SubTree4.h */,
+				D310D3CA1F0E433000653F28 /* SubTree4.m */,
+			);
+			path = subtree4;
+			sourceTree = "<group>";
+		};
+		D310D3C31F0E431F00653F28 /* subtree2 */ = {
+			isa = PBXGroup;
+			children = (
+				D310D3C41F0E431F00653F28 /* README.md */,
+				D310D3C51F0E431F00653F28 /* SubTree3.h */,
+				D310D3C61F0E431F00653F28 /* SubTree3.m */,
+			);
+			path = subtree2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +310,11 @@
 			files = (
 				D310D3861F0E0C3800653F28 /* ViewController.m in Sources */,
 				D310D3831F0E0C3800653F28 /* AppDelegate.m in Sources */,
+				D310D3C71F0E431F00653F28 /* README.md in Sources */,
+				D310D3C21F0E431000653F28 /* README.md in Sources */,
+				D310D3C81F0E431F00653F28 /* SubTree3.m in Sources */,
 				D310D3801F0E0C3800653F28 /* main.m in Sources */,
+				D310D3CB1F0E433000653F28 /* SubTree4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
